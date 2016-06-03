@@ -5,3 +5,6 @@ For input words, find the most similar words in a given set.
 
 * English phonetics (guessed from written form)
 * TODO -- IPA, English orthography, Romaji (Japanese)
+
+## Implementation
+Uses a dynamic-time-warping-based approach.
