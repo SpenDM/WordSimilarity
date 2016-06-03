@@ -6,3 +6,7 @@ For input words, find the most similar words in a given set. "Similar" can be de
 English phonetics (guessed from written form)
 FUTURE:
   IPA, English orthography, Romaji (Japanese)
+
+⋅⋅* Unordered sub-list. 
+1. Actual numbers don't matter, just that it's a number
+2. sdflkajsdlfkj
