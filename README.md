@@ -3,9 +3,5 @@ For input words, find the most similar words in a given set. "Similar" can be de
 
 **Bases for similarity:**
 
-English phonetics (guessed from written form)
-FUTURE:
-  IPA, English orthography, Romaji (Japanese)
-
-1. Actual numbers don't matter, just that it's a number
-2. sdflkajsdlfkj
+1. English phonetics (guessed from written form)
+2. TODO -- IPA, English orthography, Romaji (Japanese)
