@@ -1,5 +1,5 @@
 # WordSim
-For input words, find the most similar words by surface form (not meaning) in a given set.
+Find the most similar words by surface form (not meaning) between given sets of words.
 
 **Bases for similarity:**
 
