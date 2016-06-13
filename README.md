@@ -12,7 +12,7 @@ Uses a dynamic-time-warping-based approach.
 ## Running
 *Command line call:*
 
-PokeName.py real_name [--k (integer)] [--name_file (filename)]
+WordSim.py real_name [--k (integer)] [--name_file (filename)]
 
 *Examples:*
 
