@@ -61,8 +61,8 @@ if __name__ == '__main__':
     parser.add_argument("real_name", help="the input string")
     parser.add_argument("--k", help="number of results to return")
     parser.add_argument("--name_file", help="name of file containing words to match against")
-    parser.add_argument("--merge", help="number of results to return", action="store_true")
-    parser.add_argument("--scheme", help="how to match: orth, ipa, jap")
+    # parser.add_argument("--merge", help="number of results to return", action="store_true")
+    # parser.add_argument("--scheme", help="how to match: orth, ipa, jap")
     args = parser.parse_args()
 
     # Required args and defaults
@@ -86,12 +86,14 @@ if __name__ == '__main__':
     name_collection, success = get_names(name_list_filename)
 
     # Mode
+    '''
     if args.merge:
         mode = g.MERGE_MODE
 
     # Character scheme
     if args.scheme and args.scheme in g.SCHEMES:
         scheme = args.scheme
+    '''
 
     if success:
         main(input_string, num_outputs, name_collection, mode, scheme)

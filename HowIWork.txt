@@ -1,17 +1,11 @@
-######################
-## Description #######
-######################
-
-
-
-##############################
-## Running this program ######
-##############################
+#######################################
+## Future - Running this program ######
+#######################################
 Command line call:
-PokeName.py real_name [--k number_of_outputs] [--name_list file] [--merge] [--scheme code]
+PokeName.py real_name [--k (integer)] [--name_list (filename)] [--merge] [--scheme (code)]
 
 Examples:
-PokeName.py ricardo
+PokeName.py richard
 PokeName.py Spencer --k 3 --merge
 PokeName.py "greg fletcher" --k 10 --name_list GreekGodNames.txt --scheme orth
 
