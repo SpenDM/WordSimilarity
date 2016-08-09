@@ -9,6 +9,8 @@ Find the most similar words by surface form (not meaning) between given sets of 
 ## Implementation
 Uses a dynamic-time-warping-based approach.
 
+Dynamic time warping compares two series of elements, finding how much one series has to be altered to match the other series. DTW has been utilized for spell checking and speech recognition.
+
 ## Running
 *Command line call:*
 
