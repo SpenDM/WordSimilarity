@@ -3,8 +3,8 @@ Find the most similar words by surface form (not meaning) between given sets of 
 
 **Bases for similarity:**
 
-* English phonetics (simple guessing from written form)
-* TODO -- IPA/orthography/Romaji (Japanese)
+* Current version -- English phonetics (simple guessing from written form)
+* Future versions -- IPA/orthography/Romaji (Japanese)
 
 ## Implementation
 Uses a dynamic-time-warping-based approach.
