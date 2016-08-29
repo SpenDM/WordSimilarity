@@ -1,10 +1,10 @@
 # WordSim
-Find the most similar words by surface form (not meaning) between given sets of words.
+Find the most similar words by surface form (how words appear or how words sound) between given sets of words.
 
 **Bases for similarity:**
 
-* Current version -- English phonetics (simple guessing from written form)
-* Future versions -- IPA/orthography/Romaji (Japanese)
+* Current version -- English phonetics (very basic guessing from written form)
+* Future versions -- IPA/orthography-based, improved guessed English phonetics-based
 
 ## Implementation
 Uses a dynamic-time-warping-based approach.
@@ -36,4 +36,4 @@ real_name is one word or several words within quotation marks
 
 k is an integer which is the number of matches to output (optional, default=1)
 
-name_list is the name of a file containing words to match (optional, default= pokemon names)
+name_list is the name of a file containing words to match (optional, default= pokemon name file)
