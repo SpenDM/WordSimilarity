@@ -11,10 +11,10 @@ Uses a dynamic-time-warping-based approach.
 
 Dynamic time warping compares two series of elements, finding how much one series has to be altered to match the other series (in this case, series of letters or sounds). DTW has been utilized for spell checking and speech recognition.
 
-## Running
+## Execution
 *Command line call:*
 
-WordSim.py real_name [--k (integer)] [--name_file (filename)]
+```WordSim.py real_name [--k (integer)] [--name_file (filename)]```
 
 *Examples:*
 
