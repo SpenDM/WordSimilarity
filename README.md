@@ -18,17 +18,17 @@ Dynamic time warping compares two series of elements, finding how much one serie
 
 *Examples:*
 
-**WordSim.py ricardo**
+```WordSim.py ricardo```
     
-    * Gives the best match to "ricardo" from the default file (pokemon names)
+Gives the best match to "ricardo" from the default file (pokemon names)
     
-**WordSim.py Spencer --k 10**
+```WordSim.py Spencer --k 10```
     
-    * Gives the 10 best matches to "spencer"
+Gives the 10 best matches to "spencer"
     
-**WordSim.py "greg fletcher" --k 3 --name_file ../Data/GreekGodNames.txt**
+```WordSim.py "greg fletcher" --k 3 --name_file ../Data/GreekGodNames.txt```
     
-    * Gives the 3 best matches for each name in "greg fletcher" from the given file (greek god names)
+Gives the 3 best matches for each name in "greg fletcher" from the given file (greek god names)
 
 *Arguments:*
 
