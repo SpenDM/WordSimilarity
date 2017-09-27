@@ -1,4 +1,4 @@
-# WordSim
+# WordSimilarity
 Find the most similar words by surface form (how words appear or how words sound) between given sets of words.
 
 **Bases for similarity:**
