@@ -14,11 +14,11 @@ Find the most similar words by surface form (how words appear or how words sound
 
 *Arguments:*
 
-TARGET_NAME is one word (quoted or unquoted) or several words (quoted), the word(s) to be compared to a reference set
+* TARGET_NAME is one word (quoted or unquoted) or several words (quoted), the word(s) to be compared to a reference set
 
-NUMBER_OF_MATCHES is an integer, the number of matches to output (optional, default=1)
+* NUMBER_OF_MATCHES is an integer, the number of matches to output (optional, default=1)
 
-REFERENCE_NAMES_FILE is a filepath, the file containing words to match against (optional, default= file of pokemon names)
+* REFERENCE_NAMES_FILE is a filepath, the file containing words to match against (optional, default= file of pokemon names)
 
 
 *Examples:*
