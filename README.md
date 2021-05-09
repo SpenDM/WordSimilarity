@@ -10,7 +10,7 @@ Find the most similar words by surface form (how words appear or how words sound
 ## Run
 *Command line call:*
 
-```WordSim.py real_name [--k (integer)] [--name_file (filename)]```
+```WordSim.py TARGET_NAME [--k NUMBER_OF_MATCHES] [--name_file FILE_OF_NAMES_TO_COMPARE]```
 
 *Examples:*
 
