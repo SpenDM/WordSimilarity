@@ -10,15 +10,15 @@ Find the most similar words by surface form (how words appear or how words sound
 ## Run
 *Command line call:*
 
-```WordSim.py TARGET_NAME [--k NUMBER_OF_MATCHES] [--name_file FILE_OF_NAMES_TO_COMPARE]```
+```WordSim.py TARGET_NAME [--k NUMBER_OF_MATCHES] [--name_file REFERENCE_NAMES_FILE]```
 
 *Arguments:*
 
-TARGET_NAME is one word (quoted or unquoted) or several words (quoted)
+TARGET_NAME is one word (quoted or unquoted) or several words (quoted), the word(s) to be compared to a reference set
 
-NUMBER_OF_MATCHES is an integer which is the number of matches to output (optional, default=1)
+NUMBER_OF_MATCHES is an integer, the number of matches to output (optional, default=1)
 
-FILE_OF_NAMES_TO_COMPARE is the filepath of a file containing words to match (optional, default= file of pokemon names)
+REFERENCE_NAMES_FILE is a filepath, the file containing words to match against (optional, default= file of pokemon names)
 
 
 *Examples:*
