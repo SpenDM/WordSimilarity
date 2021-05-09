@@ -3,7 +3,7 @@ Find the most similar words by surface form (how words appear or how words sound
 
 **Bases for similarity:**
 
-* Current version -- English phonetics (very basic guessing from written form)
+* Current version -- English phonetics (heuristic estimation from written form)
 * Future versions -- IPA/orthography-based, improved guessed English phonetics-based
 
 ## Implementation
