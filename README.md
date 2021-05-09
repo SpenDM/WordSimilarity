@@ -14,7 +14,7 @@ Find the most similar words by surface form (how words appear or how words sound
 
 *Arguments:*
 
-TARGET_NAME is one word or several words within quotation marks
+TARGET_NAME is one word (quoted or unquoted) or several words (quoted)
 
 NUMBER_OF_MATCHES is an integer which is the number of matches to output (optional, default=1)
 
