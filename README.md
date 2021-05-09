@@ -6,12 +6,8 @@ Find the most similar words by surface form (how words appear or how words sound
 * Current version -- English phonetics (heuristic estimation from written form)
 * Future versions -- IPA/orthography-based, improved guessed English phonetics-based
 
-## Implementation
-Uses a dynamic-time-warping-based approach.
 
-Dynamic time warping compares two series of elements, finding how much one series has to be altered to match the other series (in this case, series of letters or sounds). DTW has been utilized for spell checking and speech recognition.
-
-## Execution
+## Run
 *Command line call:*
 
 ```WordSim.py real_name [--k (integer)] [--name_file (filename)]```
@@ -37,3 +33,9 @@ real_name is one word or several words within quotation marks
 k is an integer which is the number of matches to output (optional, default=1)
 
 name_list is the name of a file containing words to match (optional, default= pokemon name file)
+
+
+## Implementation
+Uses a dynamic-time-warping-based approach.
+
+Dynamic time warping compares two series of elements, finding how much one series has to be altered to match the other series (in this case, series of letters or sounds). DTW has been utilized for spell checking and speech recognition.
