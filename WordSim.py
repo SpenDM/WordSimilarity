@@ -43,8 +43,7 @@ def get_names(filename):
         with open(filename, "r") as in_file:
             names = in_file.readlines()
     except IOError:
-        sys.stderr.write("Tried to open \"" + filename + "\" as the name file but I can't find"
-                         " a file with that name. If that's not supposed to be a file, refer to HowIWork.txt")
+        sys.stderr.write("Tried and failed to open \"" + filename)
         successful = False
 
     # Process name list

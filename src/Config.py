@@ -1,8 +1,6 @@
-import Globals as g
-
 # Argument Handling
 DEFAULT_NUM_OUTPUTS = 1
-DEFAULT_NAME_FILENAME = "../Data/PokemonNames.txt"
+DEFAULT_NAME_FILENAME = "Data/PokemonNames.txt"
 
 # Scheme Handling
 VC = -10
