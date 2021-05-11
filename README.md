@@ -12,6 +12,8 @@ The default file being compared against contains Pokemon names.
 
 Entering "Richard" as input will result in the output "Charizard".
 
+![architecture](Data/richard_example.png)
+
 
 ## Run
 *Command line call:*
