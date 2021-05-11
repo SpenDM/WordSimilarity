@@ -14,6 +14,8 @@ Entering "Richard" as input will result in the output "Charizard".
 
 ![architecture](Data/richard_example.png)
 
+The algorithm compares each target word against all reference words and returns the one with the lowest cost to transform one into the other, assigning a high cost for letter insertions/deletions or swapping two dissimilar letters, a medium cost for swapping similar letters, and no cost for swapping identical letters.
+
 
 ## Run
 *Command line call:*
