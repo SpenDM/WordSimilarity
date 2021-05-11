@@ -7,6 +7,12 @@ Find the most similar words by surface form (how words appear or how words sound
 * Future versions -- IPA/orthography-based, improved English phonetics-based
 
 
+## Example
+The default file being compared against contains Pokemon names. 
+
+Entering "Richard" as input will result in the output "Charizard".
+
+
 ## Run
 *Command line call:*
 
@@ -23,7 +29,7 @@ Find the most similar words by surface form (how words appear or how words sound
 
 *Examples:*
 
-```WordSim.py ricardo```
+```WordSim.py richard```
     
 Gives the best match to "ricardo" from the default file (pokemon names)
     
